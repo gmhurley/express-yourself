@@ -4,7 +4,7 @@ params = pytest.mark.parametrize
 
 import textminer.separator as s
 
-@xfail
+# @xfail
 @params("input,expected", [
     ("hello", ['hello']),
     ("hello world", ['hello', 'world']),
