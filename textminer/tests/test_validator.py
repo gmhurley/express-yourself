@@ -24,7 +24,7 @@ def test_binary_even():
     assert not v.binary_even("1011")
 
 
-@xfail
+# @xfail
 def test_hexadecimal():
     assert v.hex("CAFE")
     assert v.hex("9F9")

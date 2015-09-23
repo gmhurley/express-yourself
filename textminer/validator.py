@@ -21,3 +21,11 @@ def binary_even(inp):
     if not binary(inp) or int(inp) % 2 != 0:
         return False
     return True
+
+
+def hex(inp):
+    try:
+        int(inp, 16)
+        return True
+    except:
+        return False
